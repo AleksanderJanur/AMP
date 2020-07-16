@@ -88,6 +88,12 @@ a {
 
 .bg-black {
   background: #000; }
+@media (max-width: 600px) {
+  .clss2{
+    max-width: 50%;
+  }
+
+}
 
 .form-control {
   height: 47px; }
