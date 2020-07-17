@@ -34,6 +34,15 @@ a {
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Oswald", arial, sans-serif; }
 
+.bh:hover{
+  color:#43b02a !important;
+}
+.cenh:hover{
+  color:#f24d49 !important;
+}
+.urh:hover{
+  color:#00aeef !important;
+}
 
 .text-black {
   color: #000 !important; }
@@ -265,9 +274,13 @@ a {
 @media (max-width: 767.98px) {
   .bg-sm-height {
     height: 300px; } }
-.myNav{
-  height:100px !important;
+@media (max-width: 991px) {
+  .myNav {
+    height: 100px !important;
+  }
 }
+
+
 
 
 /* Navbar */
@@ -1823,17 +1836,6 @@ section-pad-small {
     transition: .3s;
   }
 
-/*.imageChanger {*/
-/*  display: block!important;*/
-/*  height: 65px!important;*/
-/*  width: 100% !important;*/
-/*  background-size: contain!important;*/
-/*  background-repeat: no-repeat!important;*/
-/*  background-position: center!important;*/
-/*}*/
-
-
-
 
 a.link, span.link, li.link a {
   color: #0e1a23;
@@ -1942,6 +1944,7 @@ a.link, span.link, li.link a {
   transition: all .5s ease;
 }
 
+
 .client-slider .single-brand {
   display: table;
   height: 80px;
@@ -2004,7 +2007,50 @@ a.link, span.link, li.link a {
 .logoSize{
   width:128px !important;
 }
+@media screen and (min-width: 992px) {
+  .emphasis {
+    border-bottom: 2px solid #43b02a;
+    display: inline-block;
+    line-height: 0.5;
+  }
+}
 
+@media screen and (max-width: 991px) {
+  .emphasis {
+    text-decoration: underline #43b02a;
+    text-decoration-style: solid;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .emphasis2 {
+   border-bottom: 2px solid #f24d49;;
+   display: inline-block;
+   line-height: 0.5;
+}
+}
+
+@media screen and (max-width: 991px) {
+.emphasis2 {
+  text-decoration: underline #f24d49;;
+  text-decoration-style: solid;
+}
+}
+
+@media screen and (min-width: 992px) {
+  .emphasis3 {
+    border-bottom: 2px solid #00aeef;
+    display: inline-block;
+    line-height: 0.5;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .emphasis3 {
+    text-decoration: underline #00aeef;
+    text-decoration-style: solid;
+  }
+}
 
 
 /*PRELOADING------------ */
